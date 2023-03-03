@@ -1,0 +1,428 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+video{
+        width: 100%;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+        object-fit: cover;
+        border: none;
+        overflow: none;
+     
+     
+}
+
+.video-holder{
+    width: 100%;
+    height: 100vh;
+}
+
+.block{
+    /* Rectangle 7 */
+
+position: absolute;
+width: 362px;
+height: 333.08px;
+left: 1021px;
+top: 263px;
+
+background: #000000;
+backdrop-filter: blur(2px);
+/* Note: backdrop-filter has minimal browser support */
+animation-name: pic-move;
+animation-duration: 1s;
+animation-timing-function: ease-in;
+}
+
+.slider-img{
+/* detailed_alex 1 */
+
+position: absolute;
+width: 333.08px;
+height: 333.08px;
+left: 903px;
+top: 378px;
+
+background: url(detailed_alex.png);
+
+animation-name: pic-move;
+animation-duration: 1s;
+animation-timing-function: ease-in;
+
+}
+
+.home{
+    background-color: #DEDEDE;
+}
+
+.home-path{
+    /* ELYSIUM */
+
+position: absolute;
+width: 327px;
+height: 79px;
+left: 1047px;
+top: 94px;
+text-decoration: none;
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 79px;
+
+color: #000000;
+
+
+
+}
+
+
+
+@keyframes pic-move {
+    from{
+        transform: translateX(1000px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+
+    
+
+
+}
+
+.shop-path{
+    /* SHOP */
+
+position: absolute;
+width: 106px;
+height: 82px;
+left: 175px;
+top: 115px;
+text-decoration: none;
+font-family: 'Ramaraja';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 82px;
+
+color: #000000;
+animation-name: fadeIn;
+animation-duration: 1s;
+animation-timing-function: ease-in;
+
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+.shop-path:hover{
+    opacity: .6;
+}
+
+
+.programs-path{
+    /* PROGRAMS */
+
+position: absolute;
+width: 234px;
+height: 82px;
+left: 349px;
+top: 115px;
+
+font-family: 'Ramaraja';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 82px;
+
+color: #000000;
+text-decoration: none;
+animation-name: fadeIn;
+animation-duration: 1s;
+animation-timing-function: ease-in;
+
+}
+
+.programs-path:hover{
+    opacity: .6;
+}
+
+.about-path{
+    /* ABOUT */
+
+position: absolute;
+width: 144px;
+height: 164px;
+left: 651px;
+top: 115px;
+
+font-family: 'Ramaraja';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 82px;
+text-decoration: none;
+color: #000000;
+animation-name: fadeIn;
+animation-duration: 1s;
+animation-timing-function: ease-in;
+
+
+}
+
+.about-path:hover{
+    opacity: .6;
+}
+
+.march-drop{
+    /* MARCH DROP */
+
+position: absolute;
+width: 500px;
+height: 61px;
+left: 264px;
+top: 314.71px;
+
+font-family: 'Bogart';
+font-style: normal;
+font-weight: 750;
+font-size: 64px;
+line-height: 61px;
+/* identical to box height */
+
+color: #373027;
+
+animation: fadeIn 1s;
+
+transform: rotate(-0.09deg);
+
+}
+
+
+
+.loader {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .loader-inner {
+    border: 20px solid #f3f3f3;
+    border-top: 20px solid black;
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 390px;
+    left: -200px;
+    animation: fadeIn 2s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .loader-text-container {
+    position: absolute;
+    background-color: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .loader-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+  }
+
+
+  .home-block{
+
+  }
+
+
+
+.shirt-1{
+    /* Rectangle 8 */
+
+position: absolute;
+width: 217px;
+height: 344px;
+left: 117px;
+top: 319px;
+
+background: #1F1F1F;
+border-radius: 30px;
+
+}
+
+
+.product-box-1{
+    /* Rectangle 8 */
+
+position: absolute;
+width: 217px;
+height: 344px;
+left: 117px;
+top: 319px;
+
+background: #1F1F1F;
+border-radius: 30px;
+
+}
+
+.product-box-2{
+    /* Rectangle 9 */
+
+position: absolute;
+width: 217px;
+height: 344px;
+left: 569px;
+top: 319px;
+
+background: #1F1F1F;
+border-radius: 30px;
+
+}
+
+.product-box-3{
+    /* Rectangle 10 */
+
+position: absolute;
+width: 217px;
+height: 344px;
+left: 1037px;
+top: 319px;
+
+background: #1F1F1F;
+border-radius: 30px;
+
+}
+
+.nav-2{
+    /* ELYSIUM */
+
+position: absolute;
+width: 327px;
+height: 79px;
+left: 556px;
+top: 53px;
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 79px;
+text-decoration: none;
+color: #000000;
+
+
+}
+
+.nav-1{
+    /* ABOUT */
+
+position: absolute;
+width: 144px;
+height: 164px;
+left: 196px;
+top: 68px;
+
+font-family: 'Ramaraja';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 82px;
+text-decoration: none;
+color: #000000;
+
+
+}
+
+.alex{
+/* ALEX */
+
+position: absolute;
+width: 98px;
+height: 40px;
+left: 219px;
+top: 172px;
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+.alex-picture{
+    /* image 1 */
+
+position: absolute;
+width: 400px;
+height: 605px;
+left: 68px;
+top: 232px;
+
+background: url(image.png);
+border-radius: 30px;
+padding-bottom: 10%;
+}
+
+.about-alex{
+    /* ABOUT ALEX: */
+
+position: absolute;
+width: 246px;
+height: 40px;
+left: 514px;
+top: 232px;
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+.about-alex-paragraph{
+    /* Alex Eubank is a fitness YouTuber and TikToker known for his inspiring and informative content about health and fitness. With over 400,000 followers on TikTok and more than 100,000 subscribers on YouTube, he has become a trusted source of fitness advice for many people. Alex's content is known for its authenticity and relatability, as he shares his own fitness journey and struggles with his audience. He also provides practical tips and workouts that can be done from home, making fitness more accessible for everyone. His dedication to living a healthy lifestyle and helping others do the same has earned him a loyal following and the admiration of many fitness enthusiasts. */
+
+position: absolute;
+width: 926px;
+height: 96px;
+left: 514px;
+top: 299px;
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+
+color: #000000;
+
+
+}
